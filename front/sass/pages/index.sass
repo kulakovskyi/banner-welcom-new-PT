@@ -21,7 +21,7 @@ body
 
 .banner
   overflow: hidden
-  padding: 40px 0
+  padding: 125px 0
   @media screen and (min-width: 700px) and (orientation: landscape) and (min-height: 451px)
     background: url('../img/bg-desc-2.jpg') no-repeat 50% 0/cover
   @media screen and (min-width: 601px) and (max-width: 1120px) and (orientation: portrait)
@@ -53,31 +53,6 @@ body
     margin: 0 0 30px 0
     span
       font-family: $font-wulkan
-  &__button
-    display: inline-block
-    font-family: $font-suisse-semb
-    font-size: 24px
-    line-height: 31px
-    letter-spacing: 0.08em
-    text-transform: uppercase
-    color: $blue
-    padding: 29px 75px 27px
-    background: $green
-    margin: 0 0 30px 0
-
-    transition: background-color .3s ease
-    &:hover
-      background: $green-hover
-  &__link
-    font-family: $font-suisse-reg
-    font-size: 16px
-    line-height: 21px
-    text-align: center
-    letter-spacing: 0.01em
-    text-decoration-line: underline
-    color: #FFFFFF
-    &:hover
-      text-decoration-line: none
   &__dep
     position: absolute
     top: 57%
@@ -115,6 +90,7 @@ body
       text-transform: uppercase
       color: #EDEDED
       span
+        font-family: $font-suisse-semb
         display: block
         font-size: 40px
         line-height: 52px
